@@ -1,0 +1,15 @@
+# Ignorar arquivos de configuração locais
+*.venv
+config.json
+config.py
+
+# Ignorar arquivos temporários
+*.log
+*.bak
+*.swp
+*.tmp
+
+# Ignorar diretórios específicos
+node_modules/
+venv/
+__pycache__/
