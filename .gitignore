@@ -2,7 +2,7 @@
 *.venv
 config.json
 config.py
-
+*.json
 # Ignorar arquivos temporários
 *.log
 *.bak
