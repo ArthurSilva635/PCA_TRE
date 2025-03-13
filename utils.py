@@ -28,7 +28,7 @@ def clean_column_names(df):
     df.columns = [col.lower().replace(" ", "_").replace("-", "_") for col in df.columns]
 
     # Renomear colunas específicas
-    df.rename(columns={"col_39": "impácto"}, inplace=True)
+    df.rename(columns={"col_39": "impacto"}, inplace=True)
 
     # Criar um dicionário para contar ocorrências de nomes de colunas
     col_count = {}
